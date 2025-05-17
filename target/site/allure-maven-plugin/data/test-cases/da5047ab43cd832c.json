@@ -1,0 +1,273 @@
+{
+  "uid" : "da5047ab43cd832c",
+  "name" : "registerNewUser[Browser: chrome]",
+  "fullName" : "RegisterTests.registerNewUser[Browser: chrome]",
+  "historyId" : "e98d05c63e161ceef5f8b1c64ac15ddd",
+  "time" : {
+    "start" : 1747487405456,
+    "stop" : 1747487411554,
+    "duration" : 6098
+  },
+  "description" : "Регистрация пользователя с уникальными данными",
+  "descriptionHtml" : "<p>Регистрация пользователя с уникальными данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Регистрация пользователя с уникальными данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Попытка запуска WebDriver №1",
+      "time" : {
+        "start" : 1747487405456,
+        "stop" : 1747487405456,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Успешный запуск WebDriver на попытке №1",
+      "time" : {
+        "start" : 1747487406147,
+        "stop" : 1747487406147,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открываем URL с повторами: https://stellarburgers.nomoreparties.site/register",
+      "time" : {
+        "start" : 1747487406148,
+        "stop" : 1747487409430,
+        "duration" : 3282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (d0752a7e5a3885c2f9c13a33aa3b9518)"
+      }, {
+        "name" : "url",
+        "value" : "https://stellarburgers.nomoreparties.site/register"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вводим имя: FjTgIG",
+      "time" : {
+        "start" : 1747487409430,
+        "stop" : 1747487409504,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "FjTgIG"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вводим email: usertLEUPT@test.com",
+      "time" : {
+        "start" : 1747487409504,
+        "stop" : 1747487409599,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "usertLEUPT@test.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Вводим пароль: 6nnoAv",
+      "time" : {
+        "start" : 1747487409600,
+        "stop" : 1747487409654,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "6nnoAv"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажимаем кнопку 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1747487409654,
+        "stop" : 1747487409703,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидаем переход и проверяем, что на странице логина",
+      "time" : {
+        "start" : 1747487409703,
+        "stop" : 1747487410217,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Убедиться, что кнопка 'Войти в аккаунт' видна на странице логина",
+      "time" : {
+        "start" : 1747487410217,
+        "stop" : 1747487410227,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизация пользователя и получение accessToken с повторными попытками",
+      "time" : {
+        "start" : 1747487410227,
+        "stop" : 1747487410529,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизация пользователя и получение accessToken (также сохраняется refreshToken)",
+        "time" : {
+          "start" : 1747487410227,
+          "stop" : 1747487410529,
+          "duration" : 302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@7279d0f8"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@7279d0f8"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя по accessToken",
+      "time" : {
+        "start" : 1747487410529,
+        "stop" : 1747487411399,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mjg4YWI3OWVkMjgwMDAxYjVlZjY3YSIsImlhdCI6MTc0NzQ4NzQxNiwiZXhwIjoxNzQ3NDg4NjE2fQ.INW3HoQ3jb6z1-uzfUDuRmeF25KhkCS-rQuRxzvTrYQ"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 12,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerNewUser[Browser: chrome]"
+  }, {
+    "name" : "suite",
+    "value" : "RegisterTests"
+  }, {
+    "name" : "host",
+    "value" : "Barbara"
+  }, {
+    "name" : "thread",
+    "value" : "26052@Barbara.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da5047ab43cd832c.json",
+  "parameterValues" : [ ]
+}
