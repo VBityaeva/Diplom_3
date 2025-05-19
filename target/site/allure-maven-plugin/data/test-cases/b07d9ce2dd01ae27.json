@@ -1,0 +1,342 @@
+{
+  "uid" : "b07d9ce2dd01ae27",
+  "name" : "loginViaPersonalAccountButton[Browser: chrome]",
+  "fullName" : "LoginTests.loginViaPersonalAccountButton[Browser: chrome]",
+  "historyId" : "47b00ee80976c6dd0164986070f83dc9",
+  "time" : {
+    "start" : 1747487254044,
+    "stop" : 1747487266337,
+    "duration" : 12293
+  },
+  "description" : "Вход в систему через кнопку «Личный кабинет» на главной странице",
+  "descriptionHtml" : "<p>Вход в систему через кнопку «Личный кабинет» на главной странице</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Вход в систему через кнопку «Личный кабинет» на главной странице",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Попытка запуска WebDriver №1",
+      "time" : {
+        "start" : 1747487254044,
+        "stop" : 1747487254044,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Успешный запуск WebDriver на попытке №1",
+      "time" : {
+        "start" : 1747487254686,
+        "stop" : 1747487254686,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание пользователя через API с повторными попытками",
+      "time" : {
+        "start" : 1747487254686,
+        "stop" : 1747487254969,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание пользователя через API",
+        "time" : {
+          "start" : 1747487254686,
+          "stop" : 1747487254969,
+          "duration" : 283
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@34b63def"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@34b63def"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Открываем URL с повторами: https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1747487254969,
+        "stop" : 1747487264904,
+        "duration" : 9935
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (313a05cd7b0447cca2293470c95b912b)"
+      }, {
+        "name" : "url",
+        "value" : "https://stellarburgers.nomoreparties.site"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку 'Личный кабинет' на главной странице",
+      "time" : {
+        "start" : 1747487264904,
+        "stop" : 1747487264970,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидаем переход и проверяем, что на странице логина",
+      "time" : {
+        "start" : 1747487264970,
+        "stop" : 1747487264978,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Логинимся с email: userfVCZuQ@test.com",
+      "time" : {
+        "start" : 1747487264978,
+        "stop" : 1747487265153,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вводим email: userfVCZuQ@test.com",
+        "time" : {
+          "start" : 1747487264978,
+          "stop" : 1747487265049,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "userfVCZuQ@test.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Вводим пароль: gNpIgT",
+        "time" : {
+          "start" : 1747487265049,
+          "stop" : 1747487265104,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "gNpIgT"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Нажимаем кнопку 'Войти'",
+        "time" : {
+          "start" : 1747487265104,
+          "stop" : 1747487265153,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "userfVCZuQ@test.com"
+      }, {
+        "name" : "password",
+        "value" : "gNpIgT"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя и получение accessToken с повторными попытками",
+      "time" : {
+        "start" : 1747487265153,
+        "stop" : 1747487265433,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизация пользователя и получение accessToken (также сохраняется refreshToken)",
+        "time" : {
+          "start" : 1747487265153,
+          "stop" : 1747487265433,
+          "duration" : 280
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@34b63def"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@34b63def"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Убедиться, что кнопка 'Оформить заказ' отображается",
+      "time" : {
+        "start" : 1747487265433,
+        "stop" : 1747487265445,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что пользователь вошел (кнопка 'Оформить заказ' видна)",
+        "time" : {
+          "start" : 1747487265433,
+          "stop" : 1747487265445,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя по accessToken",
+      "time" : {
+        "start" : 1747487265445,
+        "stop" : 1747487266165,
+        "duration" : 720
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mjg4YTFkOWVkMjgwMDAxYjVlZjYyYSIsImlhdCI6MTc0NzQ4NzI3MSwiZXhwIjoxNzQ3NDg4NDcxfQ.6Am84QfW37EcnxxCSw3BQuKt6JrdUPo8_-Xa-m3U5ds"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginViaPersonalAccountButton[Browser: chrome]"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "Barbara"
+  }, {
+    "name" : "thread",
+    "value" : "26052@Barbara.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b07d9ce2dd01ae27.json",
+  "parameterValues" : [ ]
+}

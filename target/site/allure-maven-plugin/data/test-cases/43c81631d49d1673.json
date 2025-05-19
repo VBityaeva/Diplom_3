@@ -1,0 +1,363 @@
+{
+  "uid" : "43c81631d49d1673",
+  "name" : "loginViaRegisterPage[Browser: yandex]",
+  "fullName" : "LoginTests.loginViaRegisterPage[Browser: yandex]",
+  "historyId" : "d24d92c17e0e5d3660845325deff813a",
+  "time" : {
+    "start" : 1747487284324,
+    "stop" : 1747487297511,
+    "duration" : 13187
+  },
+  "description" : "Вход в систему через кнопку «Войти» на странице регистрации",
+  "descriptionHtml" : "<p>Вход в систему через кнопку «Войти» на странице регистрации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Вход в систему через кнопку «Войти» на странице регистрации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Попытка запуска WebDriver №1",
+      "time" : {
+        "start" : 1747487284324,
+        "stop" : 1747487284324,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Успешный запуск WebDriver на попытке №1",
+      "time" : {
+        "start" : 1747487284992,
+        "stop" : 1747487284992,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание пользователя через API с повторными попытками",
+      "time" : {
+        "start" : 1747487284992,
+        "stop" : 1747487285240,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание пользователя через API",
+        "time" : {
+          "start" : 1747487284992,
+          "stop" : 1747487285240,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@6dd729"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@6dd729"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Открываем URL с повторами: https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1747487285240,
+        "stop" : 1747487286057,
+        "duration" : 817
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (ebc09b395bd95529b78a23e730ec1cc2)"
+      }, {
+        "name" : "url",
+        "value" : "https://stellarburgers.nomoreparties.site"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Открываем URL с повторами: https://stellarburgers.nomoreparties.site/register",
+      "time" : {
+        "start" : 1747487286057,
+        "stop" : 1747487294948,
+        "duration" : 8891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (ebc09b395bd95529b78a23e730ec1cc2)"
+      }, {
+        "name" : "url",
+        "value" : "https://stellarburgers.nomoreparties.site/register"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажимаем ссылку 'Войти'",
+      "time" : {
+        "start" : 1747487294948,
+        "stop" : 1747487295003,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидаем переход и проверяем, что на странице логина",
+      "time" : {
+        "start" : 1747487295003,
+        "stop" : 1747487295010,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Логинимся с email: userbjyFMU@test.com",
+      "time" : {
+        "start" : 1747487295010,
+        "stop" : 1747487295176,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вводим email: userbjyFMU@test.com",
+        "time" : {
+          "start" : 1747487295010,
+          "stop" : 1747487295079,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "userbjyFMU@test.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Вводим пароль: S8Hhwo",
+        "time" : {
+          "start" : 1747487295079,
+          "stop" : 1747487295131,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "S8Hhwo"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Нажимаем кнопку 'Войти'",
+        "time" : {
+          "start" : 1747487295131,
+          "stop" : 1747487295176,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "userbjyFMU@test.com"
+      }, {
+        "name" : "password",
+        "value" : "S8Hhwo"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя и получение accessToken с повторными попытками",
+      "time" : {
+        "start" : 1747487295176,
+        "stop" : 1747487295676,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизация пользователя и получение accessToken (также сохраняется refreshToken)",
+        "time" : {
+          "start" : 1747487295176,
+          "stop" : 1747487295676,
+          "duration" : 500
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@6dd729"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@6dd729"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Убедиться, что кнопка 'Оформить заказ' отображается",
+      "time" : {
+        "start" : 1747487295676,
+        "stop" : 1747487295687,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что пользователь вошел (кнопка 'Оформить заказ' видна)",
+        "time" : {
+          "start" : 1747487295676,
+          "stop" : 1747487295687,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя по accessToken",
+      "time" : {
+        "start" : 1747487295687,
+        "stop" : 1747487297272,
+        "duration" : 1585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mjg4YTNiOWVkMjgwMDAxYjVlZjY0YiIsImlhdCI6MTc0NzQ4NzMwMSwiZXhwIjoxNzQ3NDg4NTAxfQ.mkQbwD-ZjRCo6nuGnIlS4gI5oDBPQ0XR30Yqdi3J2p0"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 17,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginViaRegisterPage[Browser: yandex]"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "Barbara"
+  }, {
+    "name" : "thread",
+    "value" : "26052@Barbara.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43c81631d49d1673.json",
+  "parameterValues" : [ ]
+}

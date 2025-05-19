@@ -1,0 +1,297 @@
+{
+  "uid" : "44bd97a5f92490e6",
+  "name" : "testNavigateToBunSection[Browser: yandex]",
+  "fullName" : "HomeNavigationTest.testNavigateToBunSection[Browser: yandex]",
+  "historyId" : "1df3d03a342d308cebed7efb5b8360fe",
+  "time" : {
+    "start" : 1747487231316,
+    "stop" : 1747487243748,
+    "duration" : 12432
+  },
+  "description" : "Переход к разделу 'Булки'",
+  "descriptionHtml" : "<p>Переход к разделу 'Булки'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Переход к разделу 'Булки'",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Попытка запуска WebDriver №1",
+      "time" : {
+        "start" : 1747487231316,
+        "stop" : 1747487231316,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Успешный запуск WebDriver на попытке №1",
+      "time" : {
+        "start" : 1747487231998,
+        "stop" : 1747487231998,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание и авторизация пользователя через API с повторными попытками",
+      "time" : {
+        "start" : 1747487232000,
+        "stop" : 1747487232784,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание пользователя через API с повторными попытками",
+        "time" : {
+          "start" : 1747487232000,
+          "stop" : 1747487232338,
+          "duration" : 338
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Создание пользователя через API",
+          "time" : {
+            "start" : 1747487232000,
+            "stop" : 1747487232338,
+            "duration" : 338
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "util.model.User@4ceac22d"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@4ceac22d"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Авторизация пользователя и получение accessToken с повторными попытками",
+        "time" : {
+          "start" : 1747487232338,
+          "stop" : 1747487232784,
+          "duration" : 446
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Авторизация пользователя и получение accessToken (также сохраняется refreshToken)",
+          "time" : {
+            "start" : 1747487232338,
+            "stop" : 1747487232784,
+            "duration" : 446
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "util.model.User@4ceac22d"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@4ceac22d"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@4ceac22d"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Открываем URL с повторами: https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1747487232785,
+        "stop" : 1747487242145,
+        "duration" : 9360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (36fa1e18947f3f7f894f3dc80eefeffe)"
+      }, {
+        "name" : "url",
+        "value" : "https://stellarburgers.nomoreparties.site"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Устанавливаем accessToken в localStorage",
+      "time" : {
+        "start" : 1747487242145,
+        "stop" : 1747487242148,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mjg4YTA2OWVkMjgwMDAxYjVlZjYyMSIsImlhdCI6MTc0NzQ4NzIzOCwiZXhwIjoxNzQ3NDg4NDM4fQ.wqPQL8RMefxCbnKnjU5lVTig_oi7JA_8TiK3S5gkaLw"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по вкладке 'Булки'",
+      "time" : {
+        "start" : 1747487242522,
+        "stop" : 1747487242567,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка, что активна вкладка 'Булки'",
+      "time" : {
+        "start" : 1747487242567,
+        "stop" : 1747487242582,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка, что активна вкладка 'Булки'",
+        "time" : {
+          "start" : 1747487242578,
+          "stop" : 1747487242582,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "tabElement",
+          "value" : "[[ChromeDriver: chrome on windows (36fa1e18947f3f7f894f3dc80eefeffe)] -> xpath: //div[contains(@class,'tab_tab') and .//span[text()='Булки']]]"
+        }, {
+          "name" : "tabName",
+          "value" : "Булки"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя по accessToken",
+      "time" : {
+        "start" : 1747487242582,
+        "stop" : 1747487243516,
+        "duration" : 934
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mjg4YTA2OWVkMjgwMDAxYjVlZjYyMSIsImlhdCI6MTc0NzQ4NzIzOCwiZXhwIjoxNzQ3NDg4NDM4fQ.wqPQL8RMefxCbnKnjU5lVTig_oi7JA_8TiK3S5gkaLw"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "HomeNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavigateToBunSection[Browser: yandex]"
+  }, {
+    "name" : "suite",
+    "value" : "HomeNavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "Barbara"
+  }, {
+    "name" : "thread",
+    "value" : "26052@Barbara.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44bd97a5f92490e6.json",
+  "parameterValues" : [ ]
+}

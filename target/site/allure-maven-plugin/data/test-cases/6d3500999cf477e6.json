@@ -1,0 +1,342 @@
+{
+  "uid" : "6d3500999cf477e6",
+  "name" : "logoutFromProfile[Browser: yandex]",
+  "fullName" : "ProfileNavigationTest.logoutFromProfile[Browser: yandex]",
+  "historyId" : "e13ad49fb2c35fa98c539f870fc80c90",
+  "time" : {
+    "start" : 1747487378981,
+    "stop" : 1747487394324,
+    "duration" : 15343
+  },
+  "description" : "Выход из аккаунта через кнопку 'Выйти' в личном кабинете",
+  "descriptionHtml" : "<p>Выход из аккаунта через кнопку 'Выйти' в личном кабинете</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Выход из аккаунта через кнопку 'Выйти' в личном кабинете",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Попытка запуска WebDriver №1",
+      "time" : {
+        "start" : 1747487378981,
+        "stop" : 1747487378981,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Успешный запуск WebDriver на попытке №1",
+      "time" : {
+        "start" : 1747487379696,
+        "stop" : 1747487379696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание и авторизация пользователя через API с повторными попытками",
+      "time" : {
+        "start" : 1747487379698,
+        "stop" : 1747487380872,
+        "duration" : 1174
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание пользователя через API с повторными попытками",
+        "time" : {
+          "start" : 1747487379698,
+          "stop" : 1747487380351,
+          "duration" : 653
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Создание пользователя через API",
+          "time" : {
+            "start" : 1747487379698,
+            "stop" : 1747487380351,
+            "duration" : 653
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "util.model.User@1d4cf8ea"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@1d4cf8ea"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Авторизация пользователя и получение accessToken с повторными попытками",
+        "time" : {
+          "start" : 1747487380351,
+          "stop" : 1747487380872,
+          "duration" : 521
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Авторизация пользователя и получение accessToken (также сохраняется refreshToken)",
+          "time" : {
+            "start" : 1747487380351,
+            "stop" : 1747487380872,
+            "duration" : 521
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "util.model.User@1d4cf8ea"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "util.model.User@1d4cf8ea"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "util.model.User@1d4cf8ea"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Открываем URL с повторами: https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1747487380872,
+        "stop" : 1747487391093,
+        "duration" : 10221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (a96b8a840d042d0994af594e5263e71a)"
+      }, {
+        "name" : "url",
+        "value" : "https://stellarburgers.nomoreparties.site"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Устанавливаем accessToken в localStorage",
+      "time" : {
+        "start" : 1747487391093,
+        "stop" : 1747487391096,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mjg4YTlhOWVkMjgwMDAxYjVlZjY3MCIsImlhdCI6MTc0NzQ4NzM4NiwiZXhwIjoxNzQ3NDg4NTg2fQ._0AgCm6KwYn_lBu4lj5ZXW6fEachRzGCUPF9RVSxrFk"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Сохраняем refreshToken в localStorage",
+      "time" : {
+        "start" : 1747487391096,
+        "stop" : 1747487391099,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "refreshToken",
+        "value" : "b6b886a3a5a7b80f6cd2b2c7a14f708a6ddb08db3b54355d6af87d9ad733eeb5de8b26815ca12fdd"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку 'Личный кабинет' на главной странице",
+      "time" : {
+        "start" : 1747487392199,
+        "stop" : 1747487392463,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидание загрузки страницы профиля",
+      "time" : {
+        "start" : 1747487392463,
+        "stop" : 1747487393005,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем, что текущий URL равен ожидаемому: https://stellarburgers.nomoreparties.site/account/profile",
+      "time" : {
+        "start" : 1747487393005,
+        "stop" : 1747487393007,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on windows (a96b8a840d042d0994af594e5263e71a)"
+      }, {
+        "name" : "expectedUrl",
+        "value" : "https://stellarburgers.nomoreparties.site/account/profile"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликаем на кнопку «Выйти»",
+      "time" : {
+        "start" : 1747487393007,
+        "stop" : 1747487393041,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидаем переход и проверяем, что на странице логина",
+      "time" : {
+        "start" : 1747487393041,
+        "stop" : 1747487394068,
+        "duration" : 1027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Убедиться, что кнопка 'Войти в аккаунт' видна на странице логина",
+      "time" : {
+        "start" : 1747487394068,
+        "stop" : 1747487394079,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ProfileNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logoutFromProfile[Browser: yandex]"
+  }, {
+    "name" : "suite",
+    "value" : "ProfileNavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "Barbara"
+  }, {
+    "name" : "thread",
+    "value" : "26052@Barbara.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d3500999cf477e6.json",
+  "parameterValues" : [ ]
+}
