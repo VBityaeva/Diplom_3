@@ -1,12 +1,9 @@
 import config.AppUrls;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import io.qameta.allure.Description;
+import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pageobject.HomePage;
 import pageobject.ProfilePage;
 import util.DriverFactory;
@@ -18,10 +15,8 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.junit.Assert.assertEquals;
-
 @RunWith(Parameterized.class)
-public class NavigationProfileTest {
+public class HomeNavigationTest {
 
     private WebDriver driver;
     private HomePage homePage;
@@ -31,7 +26,7 @@ public class NavigationProfileTest {
     private String accessToken;
     private final String browser;
 
-    public NavigationProfileTest(String browser) {
+    public HomeNavigationTest(String browser) {
         this.browser = browser;
     }
 
@@ -77,47 +72,31 @@ public class NavigationProfileTest {
     }
 
     @Test
+    @Description("Переход с главной страницы в личный кабинет по клику на 'Личный кабинет'")
     public void testNavigateToPersonalAccount() {
         homePage.clickPersonalAccountButton();
         profilePage.waitForProfilePageToLoad();
-        String currentUrl = driver.getCurrentUrl();
-        assertEquals("Ожидался переход на страницу профиля", AppUrls.PROFILE_PAGE, currentUrl);
+        NavigationUtils.assertCurrentUrlEquals(driver, AppUrls.PROFILE_PAGE);
     }
 
     @Test
-    public void navigateFromProfileToConstructor() {
-        System.out.println("Открытие страницы профиля...");
-        NavigationUtils.openUrlWithRetry(driver, AppUrls.PROFILE_PAGE);
-
-        String currentUrl = driver.getCurrentUrl();
-        System.out.println("Текущий URL после перехода: " + currentUrl);
-
-        // Проверка, не попали ли мы на страницу логина
-        if (currentUrl.contains("/login")) {
-            System.err.println("❌ Пользователь не авторизован. Попали на страницу логина вместо профиля.");
-            System.err.println("accessToken: " + accessToken);
-            System.err.println("HTML страницы:\n" + driver.getPageSource());
-            throw new AssertionError("Пользователь не авторизован. Тест остановлен.");
-        }
-
-        System.out.println("Нажатие на кнопку 'Конструктор'...");
-        profilePage.clickConstructorButton();
-
-        System.out.println("Ожидание перехода на главную страницу (URL: " + AppUrls.BASE_URL + ")...");
-        new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.urlToBe(AppUrls.BASE_URL));
-
-        System.out.println("Проверка отображения кнопки 'Оформить заказ'...");
-        homePage.assertOrderButtonVisible();
-
-        System.out.println("✅ Успешный переход из профиля в конструктор");
+    @Description("Переход к разделу 'Булки'")
+    public void testNavigateToBunSection() {
+        homePage.clickBunTab();
+        homePage.assertBunTabIsActive();
     }
 
     @Test
-    public void testNavigateFromProfileToConstructorViaLogo() {
-        profilePage.clickLogo();
-        NavigationUtils.openUrlWithRetry(driver, AppUrls.BASE_URL);
+    @Description("Переход к разделу 'Соусы'")
+    public void testNavigateToSauceSection() {
+        homePage.clickSauceTab();
+        homePage.assertSauceTabIsActive();
+    }
 
-        homePage.assertOrderButtonVisible();
+    @Test
+    @Description("Переход к разделу 'Начинки'")
+    public void testNavigateToFillingSection() {
+        homePage.clickFillingTab();
+        homePage.assertFillingTabIsActive();
     }
 }
